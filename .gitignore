@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.vscode/
+
+# Ignore large data files if needed (uncomment to ignore)
+# *.csv
