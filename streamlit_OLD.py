@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Sales Dashboard", layout="wide")
 st.title("Sales Performance Dashboard 2023")
 
-df = pd.read_csv('sales_data.csv')
+df = pd.read_csv(r'C:\Users\DHRUV\Downloads\amazon.csv\amazon.csv')
 df['order_date'] = pd.to_datetime(df['order_date'])
 df['month'] = df['order_date'].dt.to_period('M')
 df['revenue'] = df['units'] * df['unit_price']

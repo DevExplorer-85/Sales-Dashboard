@@ -9,7 +9,7 @@ st.title("🛒 Amazon India - Sales Dashboard")
 # --- Load & Clean Data ---
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r'C:\Users\DHRUV\Downloads\amazon.csv\amazon.csv')
+    df = pd.read_csv('amazon_dataset.csv')
     df['discounted_price']    = df['discounted_price'].str.replace('[₹,]', '', regex=True).astype(float)
     df['actual_price']        = df['actual_price'].str.replace('[₹,]', '', regex=True).astype(float)
     df['discount_percentage'] = df['discount_percentage'].str.replace('%', '', regex=True).astype(float)
