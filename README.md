@@ -3,11 +3,9 @@
 > An end-to-end data analytics project exploring discount strategies, customer ratings,
 > and pricing patterns across 1,464 Amazon India product listings.
 
-🔗 **[View Live Dashboard](YOUR_STREAMLIT_URL_HERE)**
+[View Live Dashboard]((https://sales-dashboard2026.streamlit.app/))
 
-
-
-## 🧩 Problem Statement
+# Problem Statement
 
 Amazon India lists thousands of products with varying discount levels — but do higher
 discounts actually correlate with better customer ratings? Which categories are being
@@ -16,7 +14,7 @@ discounted the most, and which products offer the highest absolute savings?
 This dashboard answers these questions through interactive visualizations and data-driven insights
 
 
-## 📌 Key Business Insights
+# Key Business Insights
 
 | 1 | Average discount across all products is **47.7%** | Nearly half the catalog is on sale — heavy discount culture |
 | 2 | Home Improvement has the highest avg discount (58%) | Possibly clearing slow-moving inventory |
@@ -26,7 +24,7 @@ This dashboard answers these questions through interactive visualizations and da
 
 
 
-## 🛠️ Tech Stack
+# Tech Stack
 
 | Python 3 | Core programming language |
 | pandas | Data cleaning and aggregation |
@@ -36,7 +34,7 @@ This dashboard answers these questions through interactive visualizations and da
 
 
 
-## 📁 Project Structure
+# Project Structure
 
 ```
 amazon-sales-dashboard/
@@ -49,7 +47,7 @@ amazon-sales-dashboard/
 
 ---
 
-## 📈 Dashboard Features
+# Dashboard Features
 
 - KPI Tiles— Total products, average discount, highest rated category, max savings
 - Avg Discount % by Category — Horizontal bar chart comparing discount intensity
@@ -59,7 +57,7 @@ amazon-sales-dashboard/
 
 
 
-## 🗂️ Dataset
+# Dataset
 
 - Source: Amazon India product listings (public dataset via Kaggle)
 - Size: 1,464 products across 8 categories
@@ -68,9 +66,8 @@ amazon-sales-dashboard/
 
 
 
-## ⚙️ How to Run Locally
+# How to Run Locally
 
-```bash
 # 1. Clone the repository
 https://github.com/DevExplorer-85/Sales-Dashboard/.git
 
@@ -84,9 +81,8 @@ pip install -r requirements.txt
 streamlit run dashboard.py
 ```
 
-Open your browser at `http://localhost:8501`
+Open your browser at [`http://localhost:8501`](https://sales-dashboard2026.streamlit.app/)
 
----
 
 ##  What I Learned
 
@@ -94,7 +90,3 @@ Open your browser at `http://localhost:8501`
 - Data cleaning with pandas — handling nulls, fixing types, deriving new columns
 - Building interactive dashboards with Streamlit
 - Translating raw numbers into business insights
-
-
-
-📧 [Your Email] &nbsp;|&nbsp; 💼 [LinkedIn Profile] &nbsp;|&nbsp; 🐙 [GitHub Profile]
